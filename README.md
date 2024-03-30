@@ -29,14 +29,20 @@
 
 ## ⚙ &nbsp;GitHub Analytics
 
-<p align="left">
-  <a href="https://github.com/panagnimba" width="100%" style="display:flex">
-    <img width="33%" src="https://github-readme-stats.vercel.app/api/top-langs?username=panagnimba&show_icons=true&locale=en&layout=compact&theme=algolia" alt="panagnimba" />
-    <img width="34%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=panagnimba&show_icons=true&locale=en&theme=algolia&include_all_commits=true&count_private=true" alt="panagnimba" />
-    <img width="33%" src="https://github-readme-streak-stats.herokuapp.com/?user=panagnimba&theme=algolia" alt="panagnimba" />
-  </a>
-</p>
 
+  <a href="https://github.com/panagnimba" width="100%" style="display:flex; justify-content: space-evenly; background-color:red">
+    <img  height="33%" src="https://github-readme-stats.vercel.app/api/top-langs?username=panagnimba&show_icons=true&locale=en&layout=compact&theme=algolia" alt="panagnimba" />
+    <img  height="33%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=panagnimba&show_icons=true&locale=en&theme=algolia&include_all_commits=true&count_private=true" alt="panagnimba" />
+    <img  height="33%" src="https://github-readme-streak-stats.herokuapp.com/?user=panagnimba&theme=algolia" alt="panagnimba" />
+  </a>
+
+<style>
+.red-background {
+    background-color: red;
+}
+</style>
+
+<p class="red-background">jsosooso</p>
 
 
 
