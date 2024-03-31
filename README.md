@@ -1,13 +1,15 @@
 <div align="center">
   <h3>
-    Hi, there! I am Josue Ouedraogo 👋
+    Hi, there! I am Joshua Ouedraogo 👋
   </h3>
 </div>
 
 <h5 align="center">Computer engineering student specializing in smart supply chain and logistics, I am a junior developer experienced in web and mobile technologies</h5>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=panagnimba&label=Profile%20views&color=0e75b6&style=flat"
-    alt="panagnimba" /> </p>
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=panagnimba&label=Profile%20views&color=0e75b6&style=flat"
+    alt="panagnimba" /> 
+</p>
 
 
 - I’m currently working on [VinoTicket Plateform](https://www.vinoticket.com/)
@@ -19,8 +21,11 @@
 
 - Email me **panagnimba@gmail.com**
 
+<br/>
 
-### &nbsp;Languages and Tools
+### &nbsp;Languages and Tools 
+<br/>
+
 Technologies that I've been learning and I've picked up along my programming journey.
 
 
