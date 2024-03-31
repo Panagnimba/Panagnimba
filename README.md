@@ -4,7 +4,7 @@
   </h3>
 </div>
 
-<h5 align="center">Computer engineering student specializing in smart supply chain and logistics, I am a junior developer experienced in web and mobile technologies</h5>
+<span align="center">Computer engineering student specializing in smart supply chain and logistics, I am a junior developer experienced in web and mobile technologies</span>
 
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=panagnimba&label=Profile%20views&color=0e75b6&style=flat"
@@ -56,8 +56,14 @@ Technologies that I've been learning and I've picked up along my programming jou
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass"
       width="40" height="40" />
   </a>
+</p>
 
-  <a href="https://www.reactjs.org/" target="_blank" rel="noreferrer">
+<br/>
+
+### Frameworks
+
+<p align="left">
+   <a href="https://www.reactjs.org/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
       alt="React" width="40" height="40" />
   </a>
@@ -78,6 +84,7 @@ Technologies that I've been learning and I've picked up along my programming jou
 
 </p>
 
+<br/>
 
 ### 💻 Backend :
 
@@ -104,6 +111,8 @@ Technologies that I've been learning and I've picked up along my programming jou
   
 </p>
 
+<br/>
+
 ### 🚀 Programming Languages :
 
 <p align="left">
@@ -128,6 +137,7 @@ Technologies that I've been learning and I've picked up along my programming jou
       height="40" /> </a>
 </p>
 
+<br/>
 
 ### 🛢️ Databases :
 
@@ -144,6 +154,8 @@ Technologies that I've been learning and I've picked up along my programming jou
       width="40" height="40" /> </a>
 </p>
 
+<br/>
+
 ### 🛢️ Data visualization :
 
 <p align="left">
@@ -155,6 +167,8 @@ Technologies that I've been learning and I've picked up along my programming jou
       width="40" height="40" />
   </a>
 </p>
+
+<br/>
 
 ### ⚙ &nbsp;GitHub Analytics
 <br />
@@ -176,7 +190,7 @@ Technologies that I've been learning and I've picked up along my programming jou
   </a>
 </p>
 
-<h3 align="left">Contact infos:</h3>
+<h3 align="left">&nbsp;Contact infos</h3>
 <p align="left">
   <a href="https://linkedin.com/in/josue ouedraogo" target="blank"><img align="center"
       src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
