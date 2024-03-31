@@ -1,33 +1,24 @@
 <div align="center">
-  <h2>
+  <h3>
     Hi, there! I am Josue Ouedraogo 👋
-  </h2>
+  </h3>
 </div>
 
-<h3 align="center">Computer engineering student specializing in smart supply chain and logistics, I am a junior
-  developer experienced in web and mobile technologies</h3>
+<h5 align="center">Computer engineering student specializing in smart supply chain and logistics, I am a junior developer experienced in web and mobile technologies</h5>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=panagnimba&label=Profile%20views&color=0e75b6&style=flat"
     alt="panagnimba" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img
-      src="https://github-profile-trophy.vercel.app/?username=panagnimba" alt="panagnimba" /></a> </p>
 
-- 🔭 I’m currently working on [VinoTicket Plateform](https://www.vinoticket.com/)
+- I’m currently working on [VinoTicket Plateform](https://www.vinoticket.com/)
 
-- 👯 Currently I collaborate on [Aiboostez Project](https://aiboostez.com/)
+- Currently I collaborate on [Aiboostez Project](https://aiboostez.com/)
 
-- 🌱 I’m currently learning **Python , Java Spring Boot**
+- I’m currently learning **Python , Java Spring Boot**
 
 
-- 📫 Email me **panagnimba@gmail.com**
+- Email me **panagnimba@gmail.com**
 
-<h3 align="left">Contact infos:</h3>
-<p align="left">
-  <a href="https://linkedin.com/in/josue ouedraogo" target="blank"><img align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-      alt="josue ouedraogo" height="30" width="40" /></a>
-</p>
 
 ### &nbsp;Languages and Tools
 Technologies that I've been learning and I've picked up along my programming journey.
@@ -94,13 +85,18 @@ Technologies that I've been learning and I've picked up along my programming jou
       alt="Express.js" width="40" height="40" /> </a>
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-      alt="MongoDB" width="40" height="40" /> </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-      alt="MySQL" width="40" height="40" /> </a>
+      alt="MongoDB" width="40" height="40" /> 
+  </a>
   <a href="https://www.oracle.com/database/" target="_blank" rel="noreferrer"> <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="Oracle"
-      width="40" height="40" /> </a>
+      width="40" height="40" /> 
+  </a>
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+      alt="MySQL" width="40" height="40" /> 
+  </a>
+  
 </p>
 
 ### 🚀 Programming Languages :
@@ -133,9 +129,8 @@ Technologies that I've been learning and I've picked up along my programming jou
 <p align="left">
   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-      alt="MySQL" width="40" height="40" /> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/64px-SQLite370.svg.png"
-      alt="SQLite" width="40" height="40" /> </a>
+      alt="MySQL" width="40" height="40" /> 
+  </a>
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
       alt="MongoDB" width="40" height="40" /> </a>
@@ -143,14 +138,13 @@ Technologies that I've been learning and I've picked up along my programming jou
       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="Oracle"
       width="40" height="40" /> </a>
 </p>
+
 ### 🛢️ Data visualization :
 
 <p align="left">
-  <a href="https://canvasjs.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg" alt="canvasjs"
-      width="40" height="40" /> </a> <a href="https://www.chartjs.org" target="_blank" rel="noreferrer"> <img
-      src="https://www.chartjs.org/media/logo-title.svg" alt="chartjs" width="40" height="40" />
-  </a>
+<a href="https://canvasjs.com" target="_blank" rel="noreferrer"> 
+  <img src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg" alt="canvasjs" width="40" height="40"/> 
+</a>
   <a href="https://canvasjs.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg" alt="canvasjs"
       width="40" height="40" />
@@ -159,6 +153,12 @@ Technologies that I've been learning and I've picked up along my programming jou
 
 ### ⚙ &nbsp;GitHub Analytics
 <br />
+<p align="left"> 
+  <a href="https://github-profile-trophy.vercel.app/?username=panagnimba&theme=algolia">
+  <img
+      src="https://github-profile-trophy.vercel.app/?username=panagnimba&theme=algolia" alt="panagnimba" />
+  </a> 
+</p>
 <p align="left">
   <a href="https://github.com/panagnimba" width="100%" style="display:flex;">
     <img
@@ -169,4 +169,11 @@ Technologies that I've been learning and I've picked up along my programming jou
       src="https://github-readme-stats.vercel.app/api/top-langs?username=panagnimba&show_icons=true&locale=en&layout=compact&theme=algolia"
       alt="panagnimba" />
   </a>
+</p>
+
+<h3 align="left">Contact infos:</h3>
+<p align="left">
+  <a href="https://linkedin.com/in/josue ouedraogo" target="blank"><img align="center"
+      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+      alt="josue ouedraogo" height="30" width="40" /></a>
 </p>
