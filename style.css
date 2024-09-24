@@ -32,6 +32,11 @@ p {
     --main-color: #0ef;
     --white-color: #fff;
     --tab-lis-color: #7c8594;
+    /*  */
+    --global-padding-horizontal: 10%;
+    --global-padding-vertical: 12rem;
+    /*  */
+    --slide-menu-max-width-value: 250px;
 }
 
 ::selection {
@@ -53,6 +58,63 @@ p {
 }
 
 /* -------N A V------------------- */
+.menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 100%;
+    height: 100%;
+    max-width: var(--slide-menu-max-width-value);
+    background-color: var(--main-color);
+    color: var(--main-color);
+    /* color: var(--white-color); */
+    font-size: 3rem;
+    z-index: 1000;
+    transition: .4s linear;
+}
+
+.menu.show {
+    left: 0;
+}
+
+.menu-icon {
+    position: fixed;
+    top: 3%;
+    left: var(--global-padding-horizontal);
+    color: var(--main-color);
+    font-size: 3rem;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.close-menu-btn {
+    color: var(--white-color);
+    text-align: right;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10%;
+    color: var(--white-color);
+    font-size: 2rem;
+}
+
+.menu-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.menu-list li:hover {
+    color: var(--bg-color);
+}
 
 .nav {
     position: fixed;
@@ -102,7 +164,8 @@ p {
     transition: .3s;
 }
 
-.nav-list li:hover .tooltip,a:hover .tooltip {
+.nav-list li:hover .tooltip,
+a:hover .tooltip {
     visibility: visible;
     opacity: 1;
 }
@@ -112,6 +175,8 @@ p {
     height: 100vh;
     perspective: 1500px;
     perspective-origin: 50%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .box {
@@ -126,9 +191,13 @@ p {
 .section {
     position: absolute;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
     background: var(--bg-color);
-    padding: 0 10%;
+
+    padding: var(--global-padding-horizontal);
+    padding-bottom: var(--global-padding-vertical);
+    padding-top: calc(var(--global-padding-vertical) - 3rem);
+
     backface-visibility: hidden;
 }
 
@@ -137,25 +206,30 @@ p {
     align-items: center;
     gap: 5rem;
 }
-.home-info{
+
+.home-info {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
+
 .home-info h1 {
     font-size: 5.5rem;
     color: var(--main-color);
     line-height: 1;
 }
+
 .home-info h3 {
     font-size: 3rem;
 }
 
 .des {
+    text-align: justify;
     margin: 1rem 0 2rem;
 }
 
 .home-info .btn-sci {
+    margin-top: 2rem;
     display: flex;
     align-items: center;
 }
@@ -172,13 +246,16 @@ p {
     transition: .3s;
     white-space: nowrap;
 }
-.btn-sci .btn:hover{
+
+.btn-sci .btn:hover {
     box-shadow: none;
 }
-.home-info .btn-sci .sci{
+
+.home-info .btn-sci .sci {
     margin-left: 2rem;
 }
-.home-info .btn-sci .sci a{
+
+.home-info .btn-sci .sci a {
     position: relative;
     display: inline-flex;
     padding: 0.8rem;
@@ -189,12 +266,13 @@ p {
     color: var(--main-color);
     transition: .3s;
 }
-.home-info .btn-sci .sci a:hover{
+
+.home-info .btn-sci .sci a:hover {
     background: var(--main-color);
     color: var(--bg-color);
 }
 
-.img-box{
+.img-box {
     position: relative;
     min-width: 200px;
     min-height: 200px;
@@ -202,7 +280,7 @@ p {
     height: 40vh;
     max-width: 300px;
     max-height: 300px;
-    background: linear-gradient(var(--bg-color),var(--main-color));
+    background: linear-gradient(var(--bg-color), var(--main-color));
     border-radius: 100%;
     border: .5rem solid var(--main-color);
     box-shadow: 0 0 2rem var(--main-color);
@@ -212,13 +290,41 @@ p {
 
     transition: 1s;
 }
-.img-box.home-img:hover{
-box-shadow: 0 0 8rem var(--main-color);
+
+.img-box.home-img:hover {
+    box-shadow: 0 0 8rem var(--main-color);
 }
-.img-box img{
+
+.img-box img {
     position: absolute;
     top: 2rem;
     display: block;
     width: 85%;
     object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:750px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .img-box {
+        width: 250px;
+        height: 250px;
+    }
+
+    .nav {
+        background: var(--bg-color);
+        border: 1px solid var(--nav-bg-color);
+
+    }
 }
