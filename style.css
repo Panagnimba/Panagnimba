@@ -31,7 +31,7 @@ p {
     --third-bg-color: #2d3542;
     --main-color: #0ef;
     --white-color: #fff;
-    --tab-lis-color: #7c8594;
+    --tab-list-color: #7c8594;
     /*  */
     --global-padding-horizontal: 10%;
     --global-padding-vertical: 12rem;
@@ -175,8 +175,6 @@ a:hover .tooltip {
     height: 100vh;
     perspective: 1500px;
     perspective-origin: 50%;
-    overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 .box {
@@ -200,8 +198,13 @@ a:hover .tooltip {
 
     backface-visibility: hidden;
 }
-
-.home {
+.section:nth-child(even){
+    background-color: var(--second-bg-color);
+}
+.section.about{
+    transform: translateX(50vw) translateZ(-50vw) translateY(90deg);
+}
+.home,.about {
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -234,7 +237,7 @@ a:hover .tooltip {
     align-items: center;
 }
 
-.btn-sci .btn {
+.btn {
     display: inline-flex;
     padding: 1.2rem 3rem;
     background: var(--main-color);
@@ -290,11 +293,29 @@ a:hover .tooltip {
 
     transition: 1s;
 }
+.img-box.about-img{
+    background: transparent;
+    box-shadow: 0 0 2rem var(--main-color), inset 0 0 1rem var(--main-color);
+}
 
 .img-box.home-img:hover {
     box-shadow: 0 0 8rem var(--main-color);
 }
-
+.title{
+    font-size: 4rem;
+    text-align: center;
+}
+.about-info .title{
+    text-align: left;
+}
+.about-info h3{
+    font-size: 2.5rem;
+    color: var(--main-color);
+}
+.about-info .btn{
+    padding: 1.2rem 4rem;
+    margin-top: 2rem;
+}
 .img-box img {
     position: absolute;
     top: 2rem;
@@ -304,7 +325,7 @@ a:hover .tooltip {
 }
 
 
-
+/* ------------ SECTION  */
 
 
 
@@ -313,7 +334,11 @@ a:hover .tooltip {
 
 
 @media only screen and (max-width:750px) {
-    .home {
+    /* .container{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    } */
+    .home,.about {
         flex-direction: column;
     }
 
