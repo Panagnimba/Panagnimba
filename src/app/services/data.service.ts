@@ -91,8 +91,57 @@ export class DataService {
     }
   ];
   
+  private profileDataFr = {
+    hello:"Bonjour, je suis",
+    name: "Joshua Ouedraogo",
+    profession: "Développeur Fullstack",
+    description: "Étudiant en ingénierie informatique spécialisé en supply chain et logistique, je suis un développeur full stack expérimenté dans les technologies web et mobile, notamment Node.js, React.js, Nuxt.js, et React Native. Je possède de solides compétences en gestion de bases de données relationnelles et non relationnelles (SQL, Oracle, MongoDB).",
+    cv: {
+      label: "Télécharger le CV",
+      url: "#"
+    },
+    social_links: [
+      {
+        platform: "Github",
+        icon: "bx bxl-github",
+        url: "#"
+      },
+      {
+        platform: "LinkedIn",
+        icon: "bx bxl-linkedin",
+        url: "#"
+      }
+    ]
+  }
+  private profileDataEn = {
+    hello:"Hello, I'm",
+    name: "Joshua Ouedraogo",
+    profession: "Fullstack Developer",
+    description: "A computer engineering student specialized in supply chain and logistics, I am an experienced full-stack developer in web and mobile technologies, including Node.js, React.js, Nuxt.js, and React Native. I possess strong skills in managing relational and non-relational databases (SQL, Oracle, MongoDB).",
+    cv: {
+      label: "Download CV",
+      url: "#"
+    },
+    social_links: [
+      {
+        platform: "Github",
+        icon: "bx bxl-github",
+        url: "#"
+      },
+      {
+        platform: "LinkedIn",
+        icon: "bx bxl-linkedin",
+        url: "#"
+      }
+    ]
+  }
+  
   // Get the navList based on the selected language
   get navList() {
     return this.languageService.getCurrentLanguage() === 'fr' ? this.navListFr : this.navListEn;
+  }
+
+  get profileData() {
+    return this.languageService.getCurrentLanguage() === 'fr' ? this.profileDataFr : this.profileDataEn;
   }
 }

@@ -35,7 +35,7 @@ p {
     --white-color: #fff;
     --tab-list-color: #7c8594;
     /*  */
-    --global-padding-horizontal: 10%;
+    --global-padding-horizontal: 6%;
     --global-padding-vertical: 12rem;
     /*  */
     --slide-menu-max-width-value: 250px;
@@ -57,4 +57,65 @@ p {
 
 ::placeholder {
     color: var(--white-color)
+}
+
+.tooltip {
+    position: absolute;
+    top: -4rem;
+    left: 50%;
+    transform: translate(-50%);
+    padding: .3rem 1rem;
+    background: var(--main-color);
+    border-radius: .4rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--bg-color);
+    white-space: nowrap;
+
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.title{
+    font-size: 4rem;
+    text-align: center;
+}
+.nav-list li:hover .tooltip,
+a:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.section {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background: var(--bg-color);
+
+    padding: var(--global-padding-horizontal);
+    padding-bottom: var(--global-padding-vertical);
+    padding-top: calc(var(--global-padding-vertical) - 10rem);
+
+    backface-visibility: hidden;
+}
+.section:nth-child(even){
+    background-color: var(--second-bg-color);
+}
+
+
+
+@media only screen and (max-width:750px) {
+    .container{
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .home,.about {
+        flex-direction: column;
+    }
+
+    .nav {
+        background: var(--bg-color);
+        border: 1px solid var(--nav-bg-color);
+
+    }
 }
