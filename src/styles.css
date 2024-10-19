@@ -17,7 +17,6 @@ html {
 body {
     background-color: var(--bg-color);
     color: var(--white-color);
-    overflow: hidden;
 }
 
 p {
@@ -36,7 +35,7 @@ p {
     --tab-list-color: #7c8594;
     /*  */
     --global-padding-horizontal: 6%;
-    --global-padding-vertical: 12rem;
+    --global-padding-vertical: 15rem;
     /*  */
     --slide-menu-max-width-value: 250px;
 }
@@ -76,16 +75,29 @@ p {
     opacity: 0;
     transition: .3s;
 }
-.title{
-    font-size: 4rem;
-    text-align: center;
+a{
+    text-decoration: none;
 }
 .nav-list li:hover .tooltip,
 a:hover .tooltip {
     visibility: visible;
     opacity: 1;
 }
+.container {
+    width: 100vw;
+    height: 100vh;
+    perspective: 1500px;
+    perspective-origin: 50%;
+}
 
+.box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transform-origin: 50% 50% -50vw;
+    transform: rotateY(0deg);
+}
 .section {
     position: absolute;
     width: 100%;
@@ -97,6 +109,7 @@ a:hover .tooltip {
     padding-top: calc(var(--global-padding-vertical) - 10rem);
 
     backface-visibility: hidden;
+
 }
 .section:nth-child(even){
     background-color: var(--second-bg-color);
@@ -105,8 +118,8 @@ a:hover .tooltip {
 
 
 @media only screen and (max-width:750px) {
-    .container{
-        overflow-x: hidden;
+
+    .container {
         overflow-y: scroll;
     }
     .home,.about {
@@ -116,6 +129,5 @@ a:hover .tooltip {
     .nav {
         background: var(--bg-color);
         border: 1px solid var(--nav-bg-color);
-
     }
 }
