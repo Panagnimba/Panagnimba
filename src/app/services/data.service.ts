@@ -9,7 +9,6 @@ interface NavItem {
   isActive: Boolean;
 }
 
-
 @Injectable({
   providedIn: 'root'
 })
@@ -168,7 +167,170 @@ export class DataService {
     }
   }
 
-
+  //----------- RESUME DATA ----------------------------------
+  private tabsFr = [
+    {
+      id: 0,
+      title: "Expérience",
+      isActive: true,
+    },
+    {
+      id: 1,
+      title: "Compétences",
+    },
+    {
+      id: 2,
+      title: "Éducation",
+    }
+  ]
+  private tabsEn = [
+    {
+      id: 0,
+      title: "Experience",
+      isActive: true,
+    },
+    {
+      id: 1,
+      title: "Skills",
+    },
+    {
+      id: 2,
+      title: "Education",
+    }
+  ];
+  private experienceDataEn = [
+    {
+      date: "2023 - Present",
+      position: "Frontend Developer",
+      company: "Facebook",
+      description: "Worked on building scalable web applications using React.js and Redux. Focused on performance optimization and user-friendly interfaces."
+    },
+    {
+      date: "2021 - 2023",
+      position: "Backend Developer",
+      company: "Amazon",
+      description: "Developed and maintained RESTful APIs with Node.js and Express. Ensured database performance and security using MongoDB."
+    },
+    {
+      date: "2020 - 2021",
+      position: "Fullstack Developer",
+      company: "Freelancer",
+      description: "Built and deployed full-stack applications for various clients using MERN stack. Integrated third-party APIs and payment gateways."
+    }
+  ];
+  private experienceDataFr = [
+    {
+      date: "2023 - Présent",
+      position: "Développeur Frontend",
+      company: "Facebook",
+      description: "Travaillé sur la création d'applications web évolutives utilisant React.js et Redux. Axé sur l'optimisation des performances et des interfaces conviviales."
+    },
+    {
+      date: "2021 - 2023",
+      position: "Développeur Backend",
+      company: "Amazon",
+      description: "Développé et maintenu des API RESTful avec Node.js et Express. Assuré la performance et la sécurité des bases de données avec MongoDB."
+    },
+    {
+      date: "2020 - 2021",
+      position: "Développeur Fullstack",
+      company: "Freelance",
+      description: "Création et déploiement d'applications full-stack pour divers clients en utilisant la pile MERN. Intégration d'API tierces et de passerelles de paiement."
+    },
+  ];
+  private skillsDataEn = [
+    {
+      icon: "bx bxl-html5",
+      name: "HTML 5"
+    },
+    {
+      icon: "bx bxl-javascript",
+      name: "JavaScript"
+    },
+    {
+      icon: "bx bxl-nodejs",
+      name: "Node.js"
+    },
+    {
+      icon: "bx bxl-html5",
+      name: "HTML 5"
+    },
+    {
+      icon: "bx bxl-javascript",
+      name: "JavaScript"
+    }, {
+      icon: "bx bxl-html5",
+      name: "HTML 5"
+    },
+    {
+      icon: "bx bxl-javascript",
+      name: "JavaScript"
+    }, {
+      icon: "bx bxl-html5",
+      name: "HTML 5"
+    },
+    {
+      icon: "bx bxl-javascript",
+      name: "JavaScript"
+    },
+  ];
+  private skillsDataFr = [
+    {
+      icon: "bx bxl-html5",
+      name: "HTML 5"
+    },
+    {
+      icon: "bx bxl-javascript",
+      name: "JavaScript"
+    },
+    {
+      icon: "bx bxl-nodejs",
+      name: "Node.js"
+    }
+  ];  
+  private educationDataEn = [
+    {
+      date: "2024",
+      course: "Master in Computer Science",
+      institution: "Harvard University",
+      description: "Focused on advanced algorithms, software engineering, and machine learning."
+    },
+    {
+      date: "2022",
+      course: "Bachelor in Information Technology",
+      institution: "Stanford University",
+      description: "Specialized in web development, database management, and cloud computing."
+    },
+    {
+      date: "2020",
+      course: "Associate Degree in Software Engineering",
+      institution: "MIT Online",
+      description: "Learned the fundamentals of coding, algorithms, and data structures."
+    }
+  ];
+  private educationDataFr = [
+    {
+      date: "2024",
+      course: "Master en Informatique",
+      institution: "Université de Harvard",
+      description: "Axé sur les algorithmes avancés, l'ingénierie logicielle, et l'apprentissage automatique."
+    },
+    {
+      date: "2022",
+      course: "Licence en Technologie de l'Information",
+      institution: "Université de Stanford",
+      description: "Spécialisé dans le développement web, la gestion de bases de données, et l'informatique en nuage."
+    },
+    {
+      date: "2020",
+      course: "Diplôme d'Associé en Génie Logiciel",
+      institution: "MIT en ligne",
+      description: "Apprentissage des bases du codage, des algorithmes, et des structures de données."
+    }
+  ];
+  
+  
+  
   // Get the navList based on the selected language
   get navList() {
     return this.languageService.getCurrentLanguage() === 'fr' ? this.navListFr : this.navListEn;
@@ -181,5 +343,18 @@ export class DataService {
   get aboutData() {
     return this.languageService.getCurrentLanguage() === 'fr' ? this.aboutDataFr : this.aboutDataEn;
   }
-   
+//------------------ RESUME DATA ----------------------
+  get tabs() {
+    return this.languageService.getCurrentLanguage() === 'fr' ? this.tabsFr : this.tabsEn;
+  }
+  get experienceData() {
+    return this.languageService.getCurrentLanguage() === 'fr' ? this.experienceDataFr : this.experienceDataEn;
+  }
+  get skillsData() {
+    return this.languageService.getCurrentLanguage() === 'fr' ? this.skillsDataFr : this.skillsDataEn;
+  }
+  get educationData() {
+    return this.languageService.getCurrentLanguage() === 'fr' ? this.educationDataFr : this.educationDataEn;
+  }
+  // ----------- END RESUME ----------------------------
 }

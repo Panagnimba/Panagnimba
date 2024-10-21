@@ -47,7 +47,11 @@
 .tab-list h3 {
     font-size: 2.5rem;
 }
-
+@media only screen and (max-width:750px) {
+    .tab-list h3 {
+        font-size: 1.6rem;
+    }
+}
 .tab-wrapper {
     position: relative;
     width: 100%;
@@ -80,7 +84,8 @@
 .tab-item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 1rem;
     background: var(--third-bg-color);
     border-radius: .8rem;
     padding: 2rem;
@@ -114,4 +119,24 @@ font-weight: 400;
 }
 .tab-item p{
     margin-top: 1rem;
+}
+
+.resume-box.skills{
+    grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+}
+
+
+.resume-box.skills .resume-item{
+    text-align: center;
+}
+
+.resume-box.skills .resume-item i{
+    font-size: 8rem;
+    transition: 0.3s;
+}
+.resume-box.skills .resume-item:hover i{
+    color: var(--main-color);
+}
+.resume-box.skills .resume-item p{
+    margin-top: 0;
 }
