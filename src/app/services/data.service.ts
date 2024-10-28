@@ -287,7 +287,7 @@ export class DataService {
       icon: "bx bxl-nodejs",
       name: "Node.js"
     }
-  ];  
+  ];
   private educationDataEn = [
     {
       date: "2024",
@@ -328,8 +328,216 @@ export class DataService {
       description: "Apprentissage des bases du codage, des algorithmes, et des structures de données."
     }
   ];
-  
-  
+
+  // ---------- PORTFOLIO -------------------
+
+  private portfolioTabsFr = [
+    {
+      id: 0,
+      title: "Mes Travaux",
+      isActive: true,
+    },
+    {
+      id: 1,
+      title: "Mes Services",
+    },
+
+  ]
+  private portfolioTabsEn = [
+    {
+      id: 0,
+      title: "My Works",
+      isActive: true,
+    },
+    {
+      id: 1,
+      title: "My Services",
+    }
+  ];
+  private projectsEn = [
+    {
+      title: "Responsive Portfolio Website",
+      description: "A personal portfolio website showcasing my projects, skills, and experience. Built with a mobile-first approach for seamless viewing on all devices.",
+      technologies: ["HTML", "CSS", "JavaScript", "React"],
+      image: "./images/projects/vinoticket.png",
+      links: {
+        preview: {
+          url: "https://myportfolio.com",
+          icon: "bx bx-left-arrow-alt",
+          tooltip: "Preview"
+        },
+        github: {
+          url: "https://github.com/myusername/portfolio-website",
+          icon: "bx bxl-github",
+          tooltip: "GitHub repository"
+        }
+      }
+    },
+    {
+      title: "E-commerce Platform",
+      description: "A full-stack e-commerce platform with user authentication, product management, and secure payment integration. Built with Node.js, Express, and MongoDB.",
+      technologies: ["Node.js", "Express", "MongoDB", "React"],
+      image: "./images/projects/aiboostez.png",
+      links: {
+        preview: {
+          url: "https://myecommerceplatform.com",
+          icon: "bx bx-left-arrow-alt",
+          tooltip: "Preview"
+        },
+        github: {
+          url: "https://github.com/myusername/ecommerce-platform",
+          icon: "bx bxl-github",
+          tooltip: "GitHub repository"
+        }
+      }
+    },
+    {
+      title: "Weather App",
+      description: "A real-time weather application that fetches data from a public API and displays the current weather and a 5-day forecast for any city.",
+      technologies: ["JavaScript", "HTML", "CSS", "OpenWeatherMap API"],
+      image: "./images/projects/vinoticket.png",
+      links: {
+        preview: {
+          url: "https://myweatherapp.com",
+          icon: "bx bx-left-arrow-alt",
+          tooltip: "Preview"
+        },
+        github: {
+          url: "https://github.com/myusername/weather-app",
+          icon: "bx bxl-github",
+          tooltip: "GitHub repository"
+        }
+      }
+    },
+    {
+      title: "Task Management App",
+      description: "A productivity tool to manage tasks, set reminders, and track progress. It includes user authentication and a REST API for storing tasks.",
+      technologies: ["React", "Node.js", "Express", "MongoDB"],
+      image: "./images/projects/aiboostez.png",
+      links: {
+        preview: {
+          url: "https://mytaskapp.com",
+          icon: "bx bx-left-arrow-alt",
+          tooltip: "Preview"
+        },
+        github: {
+          url: "https://github.com/myusername/task-management-app",
+          icon: "bx bxl-github",
+          tooltip: "GitHub repository"
+        }
+      }
+    },
+    {
+      title: "Weather App",
+      description: "A real-time weather application that fetches data from a public API and displays the current weather and a 5-day forecast for any city.",
+      technologies: ["JavaScript", "HTML", "CSS", "OpenWeatherMap API"],
+      image: "./images/projects/vinoticket.png",
+      links: {
+        preview: {
+          url: "https://myweatherapp.com",
+          icon: "bx bx-left-arrow-alt",
+          tooltip: "Preview"
+        },
+        github: {
+          url: "https://github.com/myusername/weather-app",
+          icon: "bx bxl-github",
+          tooltip: "GitHub repository"
+        }
+      }
+    },
+  ]
+  private projectsFr = [
+    {
+      title: "Weather App",
+      description: "A real-time weather application that fetches data from a public API and displays the current weather and a 5-day forecast for any city.",
+      technologies: ["JavaScript", "HTML", "CSS", "OpenWeatherMap API"],
+      image: "./images/projects/vinoticket.png",
+      links: {
+        preview: {
+          url: "https://myweatherapp.com",
+          icon: "bx bx-left-arrow-alt",
+          tooltip: "Preview"
+        },
+        github: {
+          url: "https://github.com/myusername/weather-app",
+          icon: "bx bxl-github",
+          tooltip: "GitHub repository"
+        }
+      }
+    },
+    {
+      title: "Site Web Portfolio Réactif",
+      description: "Un site web personnel de portfolio présentant mes projets, compétences et expérience. Construit avec une approche mobile-first pour une visualisation fluide sur tous les appareils.",
+      technologies: ["HTML", "CSS", "JavaScript", "React"],
+      image: "./images/projects/aiboostez.png",
+      links: {
+        preview: {
+          url: "https://myportfolio.com",
+          icon: "bx bx-left-arrow-alt",
+          tooltip: "Aperçu"
+        },
+        github: {
+          url: "https://github.com/myusername/portfolio-website",
+          icon: "bx bxl-github",
+          tooltip: "Dépôt GitHub"
+        }
+      }
+    },
+    {
+      title: "Plateforme E-commerce",
+      description: "Une plateforme e-commerce full-stack avec authentification utilisateur, gestion des produits et intégration de paiements sécurisés. Construite avec Node.js, Express et MongoDB.",
+      technologies: ["Node.js", "Express", "MongoDB", "React"],
+      image: "./images/projects/vinoticket.png",
+      links: {
+        preview: {
+          url: "https://myecommerceplatform.com",
+          icon: "bx bx-left-arrow-alt",
+          tooltip: "Aperçu"
+        },
+        github: {
+          url: "https://github.com/myusername/ecommerce-platform",
+          icon: "bx bxl-github",
+          tooltip: "Dépôt GitHub"
+        }
+      }
+    },
+    {
+      title: "Application Météo",
+      description: "Une application météo en temps réel qui récupère des données depuis une API publique et affiche la météo actuelle ainsi que les prévisions sur 5 jours pour toute ville.",
+      technologies: ["JavaScript", "HTML", "CSS", "OpenWeatherMap API"],
+      image: "./images/projects/aiboostez.png",
+      links: {
+        preview: {
+          url: "https://myweatherapp.com",
+          icon: "bx bx-left-arrow-alt",
+          tooltip: "Aperçu"
+        },
+        github: {
+          url: "https://github.com/myusername/weather-app",
+          icon: "bx bxl-github",
+          tooltip: "Dépôt GitHub"
+        }
+      }
+    },
+    {
+      title: "Application de Gestion des Tâches",
+      description: "Un outil de productivité pour gérer les tâches, définir des rappels et suivre les progrès. Inclut une authentification utilisateur et une API REST pour le stockage des tâches.",
+      technologies: ["React", "Node.js", "Express", "MongoDB"],
+      image: "./images/projects/vinoticket.png",
+      links: {
+        preview: {
+          url: "https://mytaskapp.com",
+          icon: "bx bx-left-arrow-alt",
+          tooltip: "Aperçu"
+        },
+        github: {
+          url: "https://github.com/myusername/task-management-app",
+          icon: "bx bxl-github",
+          tooltip: "Dépôt GitHub"
+        }
+      }
+    }
+  ]
   
   // Get the navList based on the selected language
   get navList() {
@@ -343,7 +551,7 @@ export class DataService {
   get aboutData() {
     return this.languageService.getCurrentLanguage() === 'fr' ? this.aboutDataFr : this.aboutDataEn;
   }
-//------------------ RESUME DATA ----------------------
+  //------------------ RESUME DATA ----------------------
   get tabs() {
     return this.languageService.getCurrentLanguage() === 'fr' ? this.tabsFr : this.tabsEn;
   }
@@ -357,4 +565,11 @@ export class DataService {
     return this.languageService.getCurrentLanguage() === 'fr' ? this.educationDataFr : this.educationDataEn;
   }
   // ----------- END RESUME ----------------------------
+
+  get portfolioTabs() {
+    return this.languageService.getCurrentLanguage() === 'fr' ? this.portfolioTabsFr : this.portfolioTabsEn;
+  }
+  get projects() {
+    return this.languageService.getCurrentLanguage() === 'fr' ? this.projectsFr : this.projectsEn;
+  }
 }
