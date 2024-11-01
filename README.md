@@ -4,7 +4,7 @@
   </h3>
 </div>
 
-<span align="center">Computer engineering student specializing in smart supply chain and logistics, I am a junior developer experienced in web and mobile technologies</span>
+<span align="center">Computer engineer, I am passionate about the full stack development of innovative solutions. I had the opportunity to participate in concrete projects, notably the Vinoticket ticketing platform, where I was able to demonstrate my skills. My experience also includes managing relational and non-relational databases (SQL, Oracle, MongoDB). Thanks to my mastery of Node.js, React.js, Angular, Nuxt.js, and React Native, I develop web and mobile applications, in line with market requirements.</span>
 
 <p align="left"> 
   <img src="https://komarev.com/ghpvc/?username=panagnimba&label=Profile%20views&color=0e75b6&style=flat"
