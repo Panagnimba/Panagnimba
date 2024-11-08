@@ -454,7 +454,7 @@ export class DataService {
       date:"Juin 2022 - Août 2024",
       position:"Mobile Application Developer",
       company:"VinoTicket",
-      description:"Vinoticket is aticketing platform that allows users to purchase event tickets: sports, cinema, concerts, and festivals, directly from their phone. It supports mobile payment methods like Orange Money and Coris Money."
+      description:"Vinoticket is a ticketing platform that allows users to purchase event tickets: sports, cinema, concerts, and festivals, directly from their phone. It supports mobile payment methods like Orange Money and Coris Money."
     },
     {
       date:"Avr. 2022 - Juil. 2022",
@@ -529,90 +529,72 @@ export class DataService {
   ];
   private projectsEn = [
     {
-      title: "Responsive Portfolio Website",
-      description: "A personal portfolio website showcasing my projects, skills, and experience. Built with a mobile-first approach for seamless viewing on all devices.",
-      technologies: ["HTML", "CSS", "JavaScript", "React"],
+      title: "Vinoticket platform",
+      description: "Vinoticket is a ticketing platform that allows users to purchase event tickets: sports, cinema, concerts, and festivals, directly from their phone. It supports mobile payment methods like Orange Money and Coris Money.",
+      technologies: ["NuxtJs", "Tailwind css", "NodeJs", "Abobe XD"],
       image: "./images/projects/vinoticket.png",
       links: {
         preview: {
-          url: "https://myportfolio.com",
+          url: "https://www.vinoticket.com/",
           icon: "bx bx-left-arrow-alt",
           tooltip: "Preview"
         },
         github: {
-          url: "https://github.com/myusername/portfolio-website",
+          url: "https://github.com/Panagnimba/",
           icon: "bx bxl-github",
           tooltip: "GitHub repository"
         }
       }
     },
     {
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce platform with user authentication, product management, and secure payment integration. Built with Node.js, Express, and MongoDB.",
+      title: "Chrome extension",
+      description: "AIBOOSTER is a Chrome extension that helps businesses and entrepreneursto automatically generate comments on social networks (Linkedin, X, Facebook , instagram, youtube,...)",
       technologies: ["Node.js", "Express", "MongoDB", "React"],
       image: "./images/projects/aiboostez.png",
       links: {
         preview: {
-          url: "https://myecommerceplatform.com",
+          url: "https://aiboostez.com/",
           icon: "bx bx-left-arrow-alt",
           tooltip: "Preview"
         },
         github: {
-          url: "https://github.com/myusername/ecommerce-platform",
+          url: "https://github.com/Panagnimba/",
           icon: "bx bxl-github",
           tooltip: "GitHub repository"
         }
       }
     },
     {
-      title: "Weather App",
-      description: "A real-time weather application that fetches data from a public API and displays the current weather and a 5-day forecast for any city.",
-      technologies: ["JavaScript", "HTML", "CSS", "OpenWeatherMap API"],
-      image: "./images/projects/vinoticket.png",
+      title: "ALSABA MONEY",
+      description: "ALSABA MONEY is a mobile banking application that enables users to carry out financial transactions easily and securely using their phone number.",
+      technologies: ["React native","NodeJs"],
+      image: "./images/projects/alsaba.png",
       links: {
         preview: {
-          url: "https://myweatherapp.com",
+          url: "#",
           icon: "bx bx-left-arrow-alt",
           tooltip: "Preview"
         },
         github: {
-          url: "https://github.com/myusername/weather-app",
+          url: "https://github.com/Panagnimba/",
           icon: "bx bxl-github",
           tooltip: "GitHub repository"
         }
       }
     },
     {
-      title: "Task Management App",
-      description: "A productivity tool to manage tasks, set reminders, and track progress. It includes user authentication and a REST API for storing tasks.",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
-      image: "./images/projects/aiboostez.png",
+      title: "E-commerce Platform for Restaurants",
+      description: "Development of an e-commerce platform for restaurants customizable according to the visual identity and brand image of the owner",
+      technologies: ["NuxtJs","NodeJs", "Tailwind css"],
+      image: "./images/projects/storeino.png",
       links: {
         preview: {
-          url: "https://mytaskapp.com",
+          url: "#",
           icon: "bx bx-left-arrow-alt",
           tooltip: "Preview"
         },
         github: {
-          url: "https://github.com/myusername/task-management-app",
-          icon: "bx bxl-github",
-          tooltip: "GitHub repository"
-        }
-      }
-    },
-    {
-      title: "Weather App",
-      description: "A real-time weather application that fetches data from a public API and displays the current weather and a 5-day forecast for any city.",
-      technologies: ["JavaScript", "HTML", "CSS", "OpenWeatherMap API"],
-      image: "./images/projects/vinoticket.png",
-      links: {
-        preview: {
-          url: "https://myweatherapp.com",
-          icon: "bx bx-left-arrow-alt",
-          tooltip: "Preview"
-        },
-        github: {
-          url: "https://github.com/myusername/weather-app",
+          url: "https://github.com/Panagnimba/",
           icon: "bx bxl-github",
           tooltip: "GitHub repository"
         }
@@ -621,96 +603,79 @@ export class DataService {
   ]
   private projectsFr = [
     {
-      title: "Weather App",
-      description: "A real-time weather application that fetches data from a public API and displays the current weather and a 5-day forecast for any city.",
-      technologies: ["JavaScript", "HTML", "CSS", "OpenWeatherMap API"],
-      image: "./images/projects/vinoticket.png",
-      links: {
-        preview: {
-          url: "https://myweatherapp.com",
-          icon: "bx bx-left-arrow-alt",
-          tooltip: "Preview"
+      "title": "Plateforme Vinoticket",
+      "description": "Vinoticket est une plateforme de billetterie permettant aux utilisateurs d'acheter des billets pour des événements : sport, cinéma, concerts, et festivals, directement depuis leur téléphone. Elle prend en charge les méthodes de paiement mobile telles que Orange Money et Coris Money.",
+      "technologies": ["NuxtJs", "Tailwind css", "NodeJs", "Adobe XD"],
+      "image": "./images/projects/vinoticket.png",
+      "links": {
+        "preview": {
+          "url": "https://www.vinoticket.com/",
+          "icon": "bx bx-left-arrow-alt",
+          "tooltip": "Aperçu"
         },
-        github: {
-          url: "https://github.com/myusername/weather-app",
-          icon: "bx bxl-github",
-          tooltip: "GitHub repository"
+        "github": {
+          "url": "https://github.com/Panagnimba/",
+          "icon": "bx bxl-github",
+          "tooltip": "Dépôt GitHub"
         }
       }
     },
     {
-      title: "Site Web Portfolio Réactif",
-      description: "Un site web personnel de portfolio présentant mes projets, compétences et expérience. Construit avec une approche mobile-first pour une visualisation fluide sur tous les appareils.",
-      technologies: ["HTML", "CSS", "JavaScript", "React"],
-      image: "./images/projects/aiboostez.png",
-      links: {
-        preview: {
-          url: "https://myportfolio.com",
-          icon: "bx bx-left-arrow-alt",
-          tooltip: "Aperçu"
+      "title": "Extension Chrome",
+      "description": "AIBOOSTER est une extension Chrome qui aide les entreprises et les entrepreneurs à générer automatiquement des commentaires sur les réseaux sociaux (LinkedIn, X, Facebook, Instagram, YouTube, etc.).",
+      "technologies": ["Node.js", "Express", "MongoDB", "React"],
+      "image": "./images/projects/aiboostez.png",
+      "links": {
+        "preview": {
+          "url": "https://aiboostez.com/",
+          "icon": "bx bx-left-arrow-alt",
+          "tooltip": "Aperçu"
         },
-        github: {
-          url: "https://github.com/myusername/portfolio-website",
-          icon: "bx bxl-github",
-          tooltip: "Dépôt GitHub"
+        "github": {
+          "url": "https://github.com/Panagnimba/",
+          "icon": "bx bxl-github",
+          "tooltip": "Dépôt GitHub"
         }
       }
     },
     {
-      title: "Plateforme E-commerce",
-      description: "Une plateforme e-commerce full-stack avec authentification utilisateur, gestion des produits et intégration de paiements sécurisés. Construite avec Node.js, Express et MongoDB.",
-      technologies: ["Node.js", "Express", "MongoDB", "React"],
-      image: "./images/projects/vinoticket.png",
-      links: {
-        preview: {
-          url: "https://myecommerceplatform.com",
-          icon: "bx bx-left-arrow-alt",
-          tooltip: "Aperçu"
+      "title": "ALSABA MONEY",
+      "description": "ALSABA MONEY est une application de mobile banking qui permet aux utilisateurs d'effectuer des transactions financières de manière simple et sécurisée en utilisant leur numéro de téléphone.",
+      "technologies": ["React Native", "NodeJs"],
+      "image": "./images/projects/alsaba.png",
+      "links": {
+        "preview": {
+          "url": "#",
+          "icon": "bx bx-left-arrow-alt",
+          "tooltip": "Aperçu"
         },
-        github: {
-          url: "https://github.com/myusername/ecommerce-platform",
-          icon: "bx bxl-github",
-          tooltip: "Dépôt GitHub"
+        "github": {
+          "url": "https://github.com/Panagnimba/",
+          "icon": "bx bxl-github",
+          "tooltip": "Dépôt GitHub"
         }
       }
     },
     {
-      title: "Application Météo",
-      description: "Une application météo en temps réel qui récupère des données depuis une API publique et affiche la météo actuelle ainsi que les prévisions sur 5 jours pour toute ville.",
-      technologies: ["JavaScript", "HTML", "CSS", "OpenWeatherMap API"],
-      image: "./images/projects/aiboostez.png",
-      links: {
-        preview: {
-          url: "https://myweatherapp.com",
-          icon: "bx bx-left-arrow-alt",
-          tooltip: "Aperçu"
+      "title": "Plateforme E-commerce pour Restaurants",
+      "description": "Développement d'une plateforme e-commerce pour les restaurants, personnalisable selon l'identité visuelle et l'image de marque du propriétaire",
+      "technologies": ["NuxtJs", "NodeJs", "Tailwind css"],
+      "image": "./images/projects/storeino.png",
+      "links": {
+        "preview": {
+          "url": "#",
+          "icon": "bx bx-left-arrow-alt",
+          "tooltip": "Aperçu"
         },
-        github: {
-          url: "https://github.com/myusername/weather-app",
-          icon: "bx bxl-github",
-          tooltip: "Dépôt GitHub"
+        "github": {
+          "url": "https://github.com/Panagnimba/",
+          "icon": "bx bxl-github",
+          "tooltip": "Dépôt GitHub"
         }
       }
-    },
-    {
-      title: "Application de Gestion des Tâches",
-      description: "Un outil de productivité pour gérer les tâches, définir des rappels et suivre les progrès. Inclut une authentification utilisateur et une API REST pour le stockage des tâches.",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
-      image: "./images/projects/vinoticket.png",
-      links: {
-        preview: {
-          url: "https://mytaskapp.com",
-          icon: "bx bx-left-arrow-alt",
-          tooltip: "Aperçu"
-        },
-        github: {
-          url: "https://github.com/myusername/task-management-app",
-          icon: "bx bxl-github",
-          tooltip: "Dépôt GitHub"
-        }
-      }
-    }
-  ]
+    }    
+]
+
 
   // ---------------- Contact ------------------
 
