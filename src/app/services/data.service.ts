@@ -91,49 +91,51 @@ export class DataService {
   ];
 
   private profileDataFr = {
-    hello: "Bonjour, je suis",
+    hello: "👋 Bienvenue, Je suis",
     name: "Josue Ouedraogo",
     profession: "Développeur Fullstack",
-    description: "Étudiant en ingénierie informatique spécialisé en supply chain et logistique, je suis un développeur full stack expérimenté dans les technologies web et mobile, notamment Node.js, React.js, Nuxt.js, et React Native. Je possède de solides compétences en gestion de bases de données relationnelles et non relationnelles (SQL, Oracle, MongoDB).",
+    description: "Ingénieur en informatique, passionné par la digitalisation, je mets mes compétences au service de l'innovation. Mon objectif ? Transformer les défis actuels en solutions numériques simples et performantes, adaptées aux besoins de chaque entreprise.",
     cv: {
       label: "Télécharger le CV",
-      url: "#"
+      url: "./images/cv_josue_ouedraogo.pdf"
     },
     social_links: [
       {
         platform: "Github",
         icon: "bx bxl-github",
-        url: "#"
+        url: "https://github.com/Panagnimba/"
       },
       {
         platform: "LinkedIn",
         icon: "bx bxl-linkedin",
-        url: "#"
+        url: "https://www.linkedin.com/in/panagnimba-josue-ouedraogo/"
       }
     ]
   }
   private profileDataEn = {
-    hello: "Hello, I'm",
+    hello: "👋 Welcome, I am",
     name: "Joshua Ouedraogo",
     profession: "Fullstack Developer",
-    description: "A computer engineering student specialized in supply chain and logistics, I am an experienced full-stack developer in web and mobile technologies, including Node.js, React.js, Nuxt.js, and React Native. I possess strong skills in managing relational and non-relational databases (SQL, Oracle, MongoDB).",
+    description: "Computer engineer, passionate about digitalization, I leverage my skills to drive innovation. My goal? To transform current challenges into simple and efficient digital solutions, tailored to the unique needs of each business.",
     cv: {
       label: "Download CV",
-      url: "#"
+      url: "./images/cv_josue_ouedraogo.pdf"
     },
     social_links: [
       {
         platform: "Github",
         icon: "bx bxl-github",
-        url: "#"
+        url: "https://github.com/Panagnimba/"
       },
       {
         platform: "LinkedIn",
         icon: "bx bxl-linkedin",
-        url: "#"
+        url: "https://www.linkedin.com/in/panagnimba-josue-ouedraogo/"
       }
     ]
   }
+
+  // ------------------- ABOUT ME -------------------------------
   private aboutDataEn = {
     imgBox: {
       src: "./images/josue_ouedraogo.png",
@@ -143,10 +145,10 @@ export class DataService {
     info: {
       title: "About me",
       profession: "Fullstack Developer",
-      description: "A computer engineering student specialized in supply chain and logistics, I am an experienced full-stack developer in web and mobile technologies, including Node.js, React.js, Nuxt.js, and React Native. I possess strong skills in managing relational and non-relational databases (SQL, Oracle, MongoDB).",
+      description: "Computer engineer, passionate about digitalization, I leverage my skills to drive innovation. My goal? To transform current challenges into simple and efficient digital solutions, tailored to the unique needs of each business. Throughout my career, I’ve had the opportunity to work on real-world projects, such as the VinoTicket ticketing platform, as well as Chrome extensions and mobile applications, which have helped me strengthen my expertise in both web and mobile development. My skills also include managing relational and non-relational databases (SQL, Oracle, MongoDB), as well as technologies such as Node.js, React.js, Angular, Java, Nuxt.js, React Native, and Docker...",
       btn: {
         text: "View more",
-        url: "#"
+        url: "https://github.com/Panagnimba/"
       }
     }
   }
@@ -159,10 +161,10 @@ export class DataService {
     info: {
       title: "A propos de moi",
       profession: "Développeur Fullstack",
-      description: "Étudiant en ingénierie informatique spécialisé en supply chain et logistique, je suis un développeur full stack expérimenté dans les technologies web et mobile, notamment Node.js, React.js, Nuxt.js, et React Native. Je possède de solides compétences en gestion de bases de données relationnelles et non relationnelles (SQL, Oracle, MongoDB).",
+      description: "Ingénieur en informatique, passionné par la digitalisation, je mets mes compétences au service de l'innovation. Mon objectif ? Transformer les défis actuels en solutions numériques simples et performantes, adaptées aux besoins de chaque entreprise. Au cours de mon parcours, j'ai eu l'opportunité de travailler sur des projets concrets, tels que la plateforme de billetterie VinoTicket, ainsi que des extensions Chrome et des applications mobiles, ce qui m'a permis de renforcer mon expertise en développement web et mobile. Mes compétences incluent également la gestion de bases de données relationnelles et non relationnelles (SQL, Oracle, MongoDB), ainsi que des technologies telles que Node.js, React.js, Angular,Java,Nuxt.js, React Native, Docker...",
       btn: {
-        text: "Voir plus",
-        url: "#"
+        text: "En savoir plus",
+        url: "https://github.com/Panagnimba/"
       }
     }
   }
@@ -171,7 +173,7 @@ export class DataService {
   private tabsFr = [
     {
       id: 0,
-      title: "Expérience",
+      title: "Éducation",
       isActive: true,
     },
     {
@@ -180,14 +182,14 @@ export class DataService {
     },
     {
       id: 2,
-      title: "Éducation",
-    }
+      title: "Expérience",
+    },
   ]
   private tabsEn = [
     {
       id: 0,
-      title: "Experience",
-      isActive: true,
+      title: "Education",
+      isActive: true
     },
     {
       id: 1,
@@ -195,7 +197,232 @@ export class DataService {
     },
     {
       id: 2,
-      title: "Education",
+      title: "Experience",
+    },
+  ];
+
+  private educationDataEn = [
+    {
+      "date": "2024",
+      "course": "Computer Engineering",
+      "institution": "National Higher School of Computer Science and Systems Analysis (ENSIAS)",
+      "description": "Engineering program focused on the convergence of computer science and logistics technologies"
+    },
+    {
+      "date": "2022",
+      "course": "Professional Bachelor's Degree",
+      "institution": "Higher School of Technology Essaouira (ESTE)",
+      "description": "Professional Bachelor's Degree in Computer Systems and Software Engineering"
+    },
+    {
+      "date": "2021",
+      "course": "University Diploma of Technology",
+      "institution": "Higher School of Technology Agadir (ESTA)",
+      "description": "University Diploma of Technology in Computer Engineering"
+    },
+    {
+      "date": "2019",
+      "course": "Technological Baccalaureate",
+      "institution": "Polytechnic Center for Vocational Training (CPFP)",
+      "description": "Technological Baccalaureate in Electronics: Series F2"
+    }
+  ]
+  private educationDataFr = [
+    {
+      date: "2024",
+      course: "Ingénieur en Informatique",
+      institution: "École Nationale Supérieure d'Informatique et d'Analyse des Systèmes (ENSIAS)",
+      description: "Formation d'ingénieur axée sur la convergence de l'informatique et des technologies logistiques"
+    },
+    {
+      date: "2022",
+      course: "Licence Professionnelle",
+      institution: "École Supérieure de Technologie Essaouira (ESTE)",
+      description: "Licence Professionnelle en Ingénierie des Systèmes Informatiques et Logiciels"
+    },
+    {
+      date: "2021",
+      course: "Diplôme Universitaire de Technologie",
+      institution: "École Supérieure de Technologie Agadir (ESTA)",
+      description: "Diplôme Universitaire de Technologie en Génie Informatique"
+    },
+    {
+      date: "2019",
+      course: "Baccalauréat Technologique",
+      institution: "Centre Polytechnique de Formation Professsionnelle (CPFP)",
+      description: "Baccalauréat Technologique option Electronique: Série F2"
+    }
+  ];
+  private skillsDataEn = [
+    {
+      icon: "bx bxl-html5",
+      name: "HTML 5"
+    },
+    {
+      icon: "bx bxl-css3",
+      name: "CSS 3"
+    },
+    {
+      icon: "bx bxl-javascript",
+      name: "JavaScript"
+    },
+    {
+      icon: "bx bxl-typescript",
+      name: "TypeScript"
+    },
+    {
+      icon: "bx bxl-react",
+      name: "React"
+    },
+    {
+      icon: "bx bxl-angular",
+      name: "Angular"
+    },
+    {
+      icon: "bx bxl-vuejs",
+      name: "Vue.js"
+    },
+    {
+      icon: "bx bxl-vuejs",
+      name: "Nuxt.js"
+    },
+    {
+      icon: "bx bxl-react",
+      name: "React Native"
+    },
+    {
+      icon: "bx bxl-nodejs",
+      name: "Node.js"
+    },
+    {
+      icon: "bx bxl-docker",
+      name: "Docker"
+    },
+    {
+      icon: "bx bxl-tailwind-css",
+      name: "Tailwind CSS"
+    },
+    {
+      icon: "bx bxl-git",
+      name: "Git"
+    },
+    {
+      icon: "bx bxl-github",
+      name: "GitHub"
+    },
+    {
+      icon: "bx bx-data",
+      name: "SQL"
+    },
+    {
+      icon: "bx bxs-data",
+      name: "Oracle"
+    },
+    {
+      icon: "bx bxl-mongodb",
+      name: "MongoDB"
+    },
+    {
+      icon: "bx bxl-c-plus-plus",
+      name: "C"
+    },
+    {
+      icon: "bx bxl-java",
+      name: "Java"
+    },
+    {
+      icon: "bx bxl-c-plus-plus",
+      name: "C++"
+    },
+    {
+      icon: "bx bxl-adobe",
+      name: "Adobe XD"
+    }
+  ];
+  private skillsDataFr = [
+    {
+      icon: "bx bxl-html5",
+      name: "HTML 5"
+    },
+    {
+      icon: "bx bxl-css3",
+      name: "CSS 3"
+    },
+    {
+      icon: "bx bxl-javascript",
+      name: "JavaScript"
+    },
+    {
+      icon: "bx bxl-typescript",
+      name: "TypeScript"
+    },
+    {
+      icon: "bx bxl-react",
+      name: "React"
+    },
+    {
+      icon: "bx bxl-angular",
+      name: "Angular"
+    },
+    {
+      icon: "bx bxl-vuejs",
+      name: "Vue.js"
+    },
+    {
+      icon: "bx bxl-vuejs",
+      name: "Nuxt.js"
+    },
+    {
+      icon: "bx bxl-react",
+      name: "React Native"
+    },
+    {
+      icon: "bx bxl-nodejs",
+      name: "Node.js"
+    },
+    {
+      icon: "bx bxl-docker",
+      name: "Docker"
+    },
+    {
+      icon: "bx bxl-tailwind-css",
+      name: "Tailwind CSS"
+    },
+    {
+      icon: "bx bxl-git",
+      name: "Git"
+    },
+    {
+      icon: "bx bxl-github",
+      name: "GitHub"
+    },
+    {
+      icon: "bx bx-data",
+      name: "SQL"
+    },
+    {
+      icon: "bx bxs-data",
+      name: "Oracle"
+    },
+    {
+      icon: "bx bxl-mongodb",
+      name: "MongoDB"
+    },
+    {
+      icon: "bx bxl-c-plus-plus",
+      name: "C"
+    },
+    {
+      icon: "bx bxl-java",
+      name: "Java"
+    },
+    {
+      icon: "bx bxl-c-plus-plus",
+      name: "C++"
+    },
+    {
+      icon: "bx bxl-adobe",
+      name: "Adobe XD"
     }
   ];
   private experienceDataEn = [
@@ -237,96 +464,6 @@ export class DataService {
       company: "Freelance",
       description: "Création et déploiement d'applications full-stack pour divers clients en utilisant la pile MERN. Intégration d'API tierces et de passerelles de paiement."
     },
-  ];
-  private skillsDataEn = [
-    {
-      icon: "bx bxl-html5",
-      name: "HTML 5"
-    },
-    {
-      icon: "bx bxl-javascript",
-      name: "JavaScript"
-    },
-    {
-      icon: "bx bxl-nodejs",
-      name: "Node.js"
-    },
-    {
-      icon: "bx bxl-html5",
-      name: "HTML 5"
-    },
-    {
-      icon: "bx bxl-javascript",
-      name: "JavaScript"
-    }, {
-      icon: "bx bxl-html5",
-      name: "HTML 5"
-    },
-    {
-      icon: "bx bxl-javascript",
-      name: "JavaScript"
-    }, {
-      icon: "bx bxl-html5",
-      name: "HTML 5"
-    },
-    {
-      icon: "bx bxl-javascript",
-      name: "JavaScript"
-    },
-  ];
-  private skillsDataFr = [
-    {
-      icon: "bx bxl-html5",
-      name: "HTML 5"
-    },
-    {
-      icon: "bx bxl-javascript",
-      name: "JavaScript"
-    },
-    {
-      icon: "bx bxl-nodejs",
-      name: "Node.js"
-    }
-  ];
-  private educationDataEn = [
-    {
-      date: "2024",
-      course: "Master in Computer Science",
-      institution: "Harvard University",
-      description: "Focused on advanced algorithms, software engineering, and machine learning."
-    },
-    {
-      date: "2022",
-      course: "Bachelor in Information Technology",
-      institution: "Stanford University",
-      description: "Specialized in web development, database management, and cloud computing."
-    },
-    {
-      date: "2020",
-      course: "Associate Degree in Software Engineering",
-      institution: "MIT Online",
-      description: "Learned the fundamentals of coding, algorithms, and data structures."
-    }
-  ];
-  private educationDataFr = [
-    {
-      date: "2024",
-      course: "Master en Informatique",
-      institution: "Université de Harvard",
-      description: "Axé sur les algorithmes avancés, l'ingénierie logicielle, et l'apprentissage automatique."
-    },
-    {
-      date: "2022",
-      course: "Licence en Technologie de l'Information",
-      institution: "Université de Stanford",
-      description: "Spécialisé dans le développement web, la gestion de bases de données, et l'informatique en nuage."
-    },
-    {
-      date: "2020",
-      course: "Diplôme d'Associé en Génie Logiciel",
-      institution: "MIT en ligne",
-      description: "Apprentissage des bases du codage, des algorithmes, et des structures de données."
-    }
   ];
 
   // ---------- PORTFOLIO -------------------
@@ -538,7 +675,84 @@ export class DataService {
       }
     }
   ]
-  
+
+  // ---------------- Contact ------------------
+
+  contactEn = {
+    "title": "Let's work together",
+    "fields": [
+      {
+        "label": "Full Name",
+        "type": "text",
+        "name": "fullName",
+        "placeholder": "Full name",
+        "required": true
+      },
+      {
+        "label": "Email Address",
+        "type": "email",
+        "name": "email",
+        "placeholder": "Email address",
+        "required": true
+      },
+      {
+        "label": "Phone Number",
+        "type": "text",
+        "name": "phoneNumber",
+        "placeholder": "Phone number",
+        "required": true
+      },
+      {
+        "label": "Email Subject",
+        "type": "text",
+        "name": "emailSubject",
+        "placeholder": "Email subject",
+        "required": true
+      }
+    ],
+    "submitButton": {
+      "text": "Send message",
+    }
+  }
+
+  contactFr = {
+    "title": "Travaillons ensemble",
+    "fields": [
+      {
+        "label": "Nom complet",
+        "type": "text",
+        "name": "fullName",
+        "placeholder": "Nom complet",
+        "required": true
+      },
+      {
+        "label": "Adresse e-mail",
+        "type": "email",
+        "name": "email",
+        "placeholder": "Adresse e-mail",
+        "required": true
+      },
+      {
+        "label": "Numéro de téléphone",
+        "type": "text",
+        "name": "phoneNumber",
+        "placeholder": "Numéro de téléphone",
+        "required": true
+      },
+      {
+        "label": "Objet de l'e-mail",
+        "type": "text",
+        "name": "emailSubject",
+        "placeholder": "Objet de l'e-mail",
+        "required": true
+      },
+    ],
+    "submitButton": {
+      "text": "Envoyer le message",
+      "class": "btn"
+    }
+  }
+
   // Get the navList based on the selected language
   get navList() {
     return this.languageService.getCurrentLanguage() === 'fr' ? this.navListFr : this.navListEn;
@@ -571,5 +785,11 @@ export class DataService {
   }
   get projects() {
     return this.languageService.getCurrentLanguage() === 'fr' ? this.projectsFr : this.projectsEn;
+  }
+
+  //------------ Contact data ----------------------
+
+  get contactInfo() {
+    return this.languageService.getCurrentLanguage() === 'fr' ? this.contactFr : this.contactEn;
   }
 }

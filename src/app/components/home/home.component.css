@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     gap: 5rem;
+    padding-bottom: 20px;
 }
 
 .home-info {
@@ -100,4 +101,3 @@
 .img-box.home-img:hover {
     box-shadow: 0 0 8rem var(--main-color);
 }
-

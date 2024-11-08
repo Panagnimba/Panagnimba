@@ -1,10 +1,13 @@
-.section.about{
+/* .section.about{
     transform: translateX(50vw) translateZ(-50vw) translateY(90deg);
-}
+} */
 .about {
     display: flex;
     align-items: center;
     gap: 5rem;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .img-box {

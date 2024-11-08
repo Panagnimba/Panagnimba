@@ -2,18 +2,36 @@
   main {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;   
+    overflow: hidden;
+  }
+  .container{
+    padding-left: var(--global-padding-horizontal);
+    padding-right: var(--global-padding-horizontal);
+    padding-bottom: calc(var(--global-padding-vertical) + 5rem);
   }
 </style>
 <main class="main">
   <app-header></app-header>
   <div class="container">
-    <div class="box">
-      <app-about></app-about>
-      <app-home></app-home>
-      <app-resume></app-resume>
-      <app-portfolio></app-portfolio>
-    </div>
+    
+        <div  [class]="currentNavigation == 1 ? 'box active':'box inactive'">
+          <app-home></app-home>  
+        </div>
+
+        <div  [class]="currentNavigation == 2 ? 'box active':'box inactive'">
+          <app-about></app-about>     
+        </div>
+        <div  [class]="currentNavigation == 3 ? 'box active':'box inactive'">
+          <app-resume></app-resume>  
+        </div>
+
+        <div  [class]="currentNavigation == 4 ? 'box active':'box inactive'">
+          <app-portfolio ></app-portfolio>  
+        </div>
+
+        <div  [class]="currentNavigation == 5 ? 'box active':'box inactive'">
+          <app-contact></app-contact>
+        </div>
   </div>
   <app-navbar></app-navbar>
 </main>

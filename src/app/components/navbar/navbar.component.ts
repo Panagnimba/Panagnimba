@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { DataService } from '../../services/data.service';
-
+import { NavigationService } from '../../services/navigation.service';
 @Component({
   selector: 'app-navbar',
   standalone: true,
@@ -11,7 +11,7 @@ import { DataService } from '../../services/data.service';
 
 export class NavbarComponent {
 
-  constructor(private dataService: DataService) {  }  
+  constructor(private dataService: DataService,private navService: NavigationService) {  }  
   // Get the navList based on the selected language
   get navList() {
     return this.dataService.navList
@@ -22,9 +22,10 @@ export class NavbarComponent {
     this.navList.forEach(item => {
       if (item.id != itemId)
         item.isActive = false
-      else
+      else{
+        this.navService.setCurrentNavigation(item.id)
         item.isActive = true
+      }
     })
-
   }
 }

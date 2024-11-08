@@ -7,10 +7,10 @@
             {{profileData.description}}
         </p>
         <div class="btn-sci">
-            <a [href]="profileData.cv.url" class="btn">{{profileData.cv.label}}</a>
+            <a [href]="profileData.cv.url" class="btn" download="cv_josue_ouedraogo">{{profileData.cv.label}}</a>
             <div class="sci">
                 @for(item of profileData.social_links; track item.platform){
-                <a href="#">
+                <a [href]="item.url" target="_blank">
                     <i [class]="item.icon"></i>
                     <span class="tooltip">{{item.platform}}</span>
                 </a>
