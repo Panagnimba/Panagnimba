@@ -112,6 +112,7 @@ font-weight: 400;
 .tab-item p{
     font-size: 1.4rem;
     margin-top: 1rem;
+    text-align: justify;
 }
 
 .resume-box.skills{

@@ -427,44 +427,80 @@ export class DataService {
   ];
   private experienceDataEn = [
     {
-      date: "2023 - Present",
-      position: "Frontend Developer",
-      company: "Facebook",
-      description: "Worked on building scalable web applications using React.js and Redux. Focused on performance optimization and user-friendly interfaces."
+      date: "Oct. 2024",
+      position: "Text Justification API",
+      company: "Tictactrip",
+      description: "This text justification API enables users to format raw text into fully justified lines. Security is maintained through a unique token-based authentication system, with a daily usage limit of 80,000 words."
     },
     {
-      date: "2021 - 2023",
-      position: "Backend Developer",
-      company: "Amazon",
-      description: "Developed and maintained RESTful APIs with Node.js and Express. Ensured database performance and security using MongoDB."
+      date: "Juil. 2024 - Sept. 2024",
+      position: "ERP (Odoo) consultant",
+      company: "Portnet",
+      description: "Enhanced Odoo's ERP e-Learning module with BigBlueButton integration during my internship at Portnet, improving online training with video conferencing tools."
     },
     {
-      date: "2020 - 2021",
-      position: "Fullstack Developer",
-      company: "Freelancer",
-      description: "Built and deployed full-stack applications for various clients using MERN stack. Integrated third-party APIs and payment gateways."
+      date:"Juin 2023 - Sept 2023",
+      position:"Full stack mobile developper",
+      company:"Alsaba",
+      description:"ALSABA MONEY is a mobile banking application that enables users to carry out financial transactions easily and securely using their phone number."
+    },
+    {
+      date: "Juin 2023 - Sept. 2024",
+      position: "Chrome extension developer",
+      company: "AIBOOSTEZ",
+      description: "AIBOOSTER is a Chrome extension that helps businesses and entrepreneursto automatically generate comments on social networks (Linkedin, X, Facebook , instagram, youtube,...)"
+    },
+    {
+      date:"Juin 2022 - Août 2024",
+      position:"Mobile Application Developer",
+      company:"VinoTicket",
+      description:"Vinoticket is aticketing platform that allows users to purchase event tickets: sports, cinema, concerts, and festivals, directly from their phone. It supports mobile payment methods like Orange Money and Coris Money."
+    },
+    {
+      date:"Avr. 2022 - Juil. 2022",
+      position:"Full stack web developper",
+      company:"Storeino",
+      description:"Development of an e-commerce platform for restaurants customizable according to the visual identity and brand image of the owner."
     }
   ];
   private experienceDataFr = [
     {
-      date: "2023 - Présent",
-      position: "Développeur Frontend",
-      company: "Facebook",
-      description: "Travaillé sur la création d'applications web évolutives utilisant React.js et Redux. Axé sur l'optimisation des performances et des interfaces conviviales."
+      "date": "Oct. 2024",
+      "position": "API de justification de texte",
+      "company": "Tictactrip",
+      "description": "Cette API de justification de texte permet aux utilisateurs de formater du texte brut en lignes entièrement justifiées. La sécurité est assurée grâce à un système d'authentification par jeton unique, avec une limite quotidienne de 80 000 mots."
     },
     {
-      date: "2021 - 2023",
-      position: "Développeur Backend",
-      company: "Amazon",
-      description: "Développé et maintenu des API RESTful avec Node.js et Express. Assuré la performance et la sécurité des bases de données avec MongoDB."
+      "date": "Juil. 2024 - Sept. 2024",
+      "position": "Consultant ERP (Odoo)",
+      "company": "Portnet",
+      "description": "Amélioration du module e-learning d'ERP Odoo avec l'intégration de BigBlueButton durant mon stage chez Portnet, optimisant la formation en ligne avec des outils de visioconférence."
     },
     {
-      date: "2020 - 2021",
-      position: "Développeur Fullstack",
-      company: "Freelance",
-      description: "Création et déploiement d'applications full-stack pour divers clients en utilisant la pile MERN. Intégration d'API tierces et de passerelles de paiement."
+      "date": "Juin 2023 - Sept. 2023",
+      "position": "Développeur mobile full stack",
+      "company": "Alsaba",
+      "description": "ALSABA MONEY est une application de Mobile Banking qui permet aux utilisateurs de réaliser des transactions financières de manière simple et sécurisée en utilisant leur numéro de téléphone."
     },
-  ];
+    {
+      "date": "Juin 2023 - Sept. 2024",
+      "position": "Développeur d'extensions Chrome",
+      "company": "AIBOOSTEZ",
+      "description": "AIBOOSTER est une extension Chrome qui aide les entreprises et les entrepreneurs à générer automatiquement des commentaires sur les réseaux sociaux (LinkedIn, X, Facebook, Instagram, YouTube, etc.)."
+    },
+    {
+      "date": "Juin 2022 - Août 2024",
+      "position": "Développeur d'applications mobiles",
+      "company": "VinoTicket",
+      "description": "Vinoticket est une plateforme de billetterie permettant aux utilisateurs d'acheter des billets pour des événements : sport, cinéma, concerts, festivals, directement depuis leur téléphone. Elle prend en charge les méthodes de paiement mobile telles que Orange Money et Coris Money."
+    },
+    {
+      "date": "Avr. 2022 - Juil. 2022",
+      "position": "Développeur web full stack",
+      "company": "Storeino",
+      "description": "Développement d'une plateforme de e-commerce pour restaurants, personnalisable selon l'identité visuelle et l'image de marque du propriétaire."
+    }
+]
 
   // ---------- PORTFOLIO -------------------
 
