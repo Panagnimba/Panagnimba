@@ -222,7 +222,7 @@ Technologies that I've been learning and working with throughout my engineering 
 
 <h3 align="left">&nbsp;Contact infos</h3>
 <p align="left">
-  <a href="https://linkedin.com/in/josue-ouedraogo" target="blank">
+  <a href="https://www.linkedin.com/in/panagnimba-josue-ouedraogo/" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="josue ouedraogo" height="30" width="40" />
   </a>
   <a href="mailto:panagnimba@gmail.com" target="blank">
