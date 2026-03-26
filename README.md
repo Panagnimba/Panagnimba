@@ -10,7 +10,7 @@
 
 <span align="center">
 
-Computer engineer specializing in full-stack web and mobile development. I build and ship production-ready applications — from a multi-payment event ticketing platform (**VinoTicket**) to a **fintech Open Banking app** with PSD2 multi-bank aggregation. My experience spans relational and non-relational databases (PostgreSQL, Oracle, MongoDB), microservices architecture with Docker & Kubernetes, and cross-platform mobile development (Android & iOS). Through my mastery of **NodeJs, Spring Boot, React, Angular, NuxtJs,** and **React Native**, I deliver scalable, clean-code solutions aligned with market demands. IBM-certified in **Enterprise Design Thinking**.
+Computer engineer specializing in full-stack web and mobile development. I build and ship production-ready applications — from a multi-payment event ticketing platform (**VinoTicket**) to a **fintech Open Banking app** with PSD2 multi-bank aggregation. My experience spans relational and non-relational databases (PostgreSQL, Oracle, MongoDB), microservices architecture with Docker & Kubernetes, and cross-platform mobile development (Android & iOS). Through my mastery of **Spring Boot, React, Angular,NodeJs, NuxtJs,** and **React Native**, I deliver scalable, clean-code solutions aligned with market demands. IBM-certified in **Enterprise Design Thinking**.
 
 </span>
 
